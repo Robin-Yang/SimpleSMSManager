@@ -53,6 +53,7 @@ public class NewMessageActivity extends Activity implements OnClickListener
 		initView();
 
 	}
+	
 
 	private void initView()
 	{
