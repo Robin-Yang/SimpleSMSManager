@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#79b302"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="短 信 信 息"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:layout_centerInParent="true"/>
+        
+        <Button 
+            android:id="@+id/btn_conversation_new_message"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/add_new_msm_bg"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_conversation_select_all"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/common_button_bg"
+            android:text="全选"
+            android:textColor="@drawable/common_button_textcolor_selector"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_conversation_cancel_select"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:background="@drawable/common_button_bg"
+            android:text="取消选择"
+            android:textColor="@drawable/common_button_textcolor_selector"
+            android:textSize="20sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_conversation"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btn_conversation_delete_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dip"
+        android:background="@drawable/common_button_bg"
+        android:paddingLeft="40dip"
+        android:paddingRight="40dip"
+        android:text="删除信息"
+        android:textColor="@drawable/common_button_textcolor_selector"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+</LinearLayout>
