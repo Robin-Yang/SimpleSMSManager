@@ -3,10 +3,10 @@ package com.yang.msmmanager;
 import java.util.HashSet;
 import java.util.Iterator;
 
-import com.example.heima.R;
 import com.yang.msmmanager.utils.CommonAsyncQuery;
 import com.yang.msmmanager.utils.Sms;
 import com.yang.msmmanager.utils.Utils;
+import com.yang.sms.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

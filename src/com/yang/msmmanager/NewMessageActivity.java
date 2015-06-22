@@ -1,7 +1,7 @@
 package com.yang.msmmanager;
 
-import com.example.heima.R;
 import com.yang.msmmanager.utils.Utils;
+import com.yang.sms.R;
 
 import android.app.Activity;
 import android.content.Context;

@@ -1,10 +1,10 @@
 package com.yang.msmmanager;
 
-import com.example.heima.R;
 import com.yang.msmmanager.utils.CommonAsyncQuery;
 import com.yang.msmmanager.utils.Sms;
 import com.yang.msmmanager.utils.Utils;
 import com.yang.msmmanager.utils.CommonAsyncQuery.OnQueryNotifyCompleteListener;
+import com.yang.sms.R;
 
 import android.app.Activity;
 import android.content.Context;
