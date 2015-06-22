@@ -3,3 +3,4 @@
 
 
 ![image](https://github.com/Robin-Yang/SimpleSMSManager/blob/master/screenshots/第一个页面.png)
+![image](https://github.com/Robin-Yang/SimpleSMSManager/blob/master/screenshots/1.1.png)
